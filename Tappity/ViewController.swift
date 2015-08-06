@@ -18,7 +18,7 @@ class ViewController: UIViewController {
 
     // Called when a colored button is tapped
     @IBAction func buttonTapped(sender: UIButton) {
-
+        // bug fix comment
         score++
         scoreLabel.text = String(score)
 
